@@ -1,9 +1,27 @@
-# M-Digital POS Desktop
+# M-Digital POS Desktop (DEPRECATED — frozen 2026-10-15)
 
-Downloads for the M-Digital POS till on macOS, Windows and Linux.
+> **This repo is frozen. New POS releases land at
+> [teminali/mdigital-releases](https://github.com/teminali/mdigital-releases)
+> (the shared public mirror that also serves M-Digital Desktop and the
+> Flutter mobile app).**
 
-**Get the app:** open the [latest release](https://github.com/teminali/m-digital-pos-releases/releases/latest) and download the file for your computer. The release notes explain how to install it.
+Historical releases published before 2026-10-15 are still here for
+anyone running an older build, and the auto-update feed embedded in
+those builds still resolves against this repo. New installs and
+updates go through the mirror.
 
-This repository only holds the installers and the update files the app reads. Once installed, the app checks here for new versions by itself.
+## What ships where now
+
+| Repo | Status | URL |
+|------|--------|-----|
+| `teminali/mdigital-releases` | active — new POS releases (tag prefix `pos-v*`) | https://github.com/teminali/mdigital-releases |
+| `teminali/m-digital-pos-releases` | frozen 2026-10-15 | this repo |
+
+## Legacy downloads
+
+For older POS builds, open the
+[latest historical release here](https://github.com/teminali/m-digital-pos-releases/releases/latest)
+and pick the file for your platform. Verify with the matching
+`SHA256SUMS.txt` from the same release.
 
 Learn more at [mhasibudigital.com](https://mhasibudigital.com).
